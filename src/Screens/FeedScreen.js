@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View,Image } from 'react-native';
 import Header from '../Components/Header/Header';
+import Comment from '../Components/Comment/comment'
 
 
 export default function FeedScreen () {
@@ -17,6 +18,7 @@ export default function FeedScreen () {
             <View>
                 <Image source={require('../../assets/dsc.png')}/>
             </View>
+            <Comment/>
         </View>
     )
 }
