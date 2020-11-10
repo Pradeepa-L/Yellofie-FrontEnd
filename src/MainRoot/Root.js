@@ -1,15 +1,15 @@
 import React from 'react'
 import { StyleSheet, Text, View} from 'react-native';
-import FeedScreen from '../Screens/FeedScreen';
+import AddCredits from '../Screens/AddCredits';
 
 
 export default function Root () {
     return (
         <View>
-           <FeedScreen/>
+           <AddCredits/>
         </View>
     )
 }
 
 
-const styles = StyleSheet.create({})
+//const styles = StyleSheet.create({})
